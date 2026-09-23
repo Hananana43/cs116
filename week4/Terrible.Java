@@ -1,7 +1,22 @@
 package week4;
 
 public class Terrible{
+    public static int add(int a, int b){
+        if(a ==0){
+            return b;
+        }else is (a>0){
+            return add(a-1,b+1);
+            int temp = add(a-1,b+1);
+            return temp;
+        }else {
+            int temp = add (a+1, b-1);
+            return temp;
+        }
+    }
+
     public static void main(String[] args) {
+        int temp = addd(3,5);
+
         int[] nums=new int[3];
 
         int total=0;
