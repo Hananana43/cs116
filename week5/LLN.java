@@ -15,7 +15,7 @@ public class LLN<T>{
 
 
     public static void main (String[] args){
-        LLN<Interger> head = new LLN<>(1, null);
+        LLN<Integer> head = new LLN<>(1, null);
         head=new LLN(2,head);
         head=new LLN(3,head);
         System.out.println(head);
